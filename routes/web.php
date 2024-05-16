@@ -14,7 +14,7 @@ Route::get('/', function (){
 
     $listaProdutos = Produto::all();
 
-    return view('home', compact('listaprodutos'));
+    return view('home', compact('listaProdutos'));
     });
 
 Route::view('/cria-conta','cria-conta' ); 
